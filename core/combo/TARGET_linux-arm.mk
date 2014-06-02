@@ -43,13 +43,8 @@ endif
 # This specifies toolchain being used. In case of issues, stick with 4.7
 # 4.8 is default in my optimizations, as it gives noticable performance boost
 ifeq ($(strip $(TARGET_GCC_VERSION_EXP)),)
-<<<<<<< HEAD
 #TARGET_GCC_VERSION := 4.7
 TARGET_GCC_VERSION := 4.8
-=======
-TARGET_GCC_VERSION := 4.7
-#TARGET_GCC_VERSION := 4.8
->>>>>>> f2fdbecd79f642f29ec3ead043e1c706fff0eaa0
 else
 TARGET_GCC_VERSION := $(TARGET_GCC_VERSION_EXP)
 endif
